@@ -1,0 +1,15 @@
+{
+    "memfile": "T432_11",
+    "boxL": 50,
+    "mbondk": 20.0,
+    "mbond_r0": 1.0,
+    "mdihedk": 20.0,
+    "mtheta0": 0.0,
+    "dt": 0.001,
+    "kT": 1.0,
+    "rseed": 42,
+    "bondflip_kT": 1.0,
+    "bondflip_period": 100,
+    "record_period": 2000,
+    "runtime": 4000
+}
