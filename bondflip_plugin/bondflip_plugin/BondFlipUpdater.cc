@@ -7,9 +7,6 @@
 
 #define ONEDGE 32767
 
-// windows defines a macro min and max
-// #undef min
-// #undef max
 
 using namespace hoomd;
 /*! \file BondFlipUpdater.cc
@@ -613,7 +610,6 @@ void export_BondFlipUpdater(pybind11::module& m)
 
 // ********************************
 // here follows the code for BondFlipUpdater on the GPU
-// WARNING: This code is not complete! 
 #ifdef ENABLE_CUDA
 
 /*! \param sysdef System to perform bond flip
