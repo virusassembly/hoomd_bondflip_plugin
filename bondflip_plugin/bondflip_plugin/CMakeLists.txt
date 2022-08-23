@@ -1,5 +1,3 @@
-# Maintainer: mspells
-
 set(COMPONENT_NAME bondflip_plugin)
 
 set(_${COMPONENT_NAME}_sources
